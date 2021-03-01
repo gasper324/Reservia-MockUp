@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://kit.fontawesome.com/f9b09925b3.js" crossorigin="anonymous"></script>
         <title>Reservia</title>
         <link rel="stylesheet" href="main.css">
     </head>
@@ -15,17 +16,44 @@
                 <a href="">Sign Up</a>
             </span>
         </header>
-        <h1>Find a place for your dream vacation</h1>
-        <h2>Downtown or in nature</h2>
+        <h2>Find a place for your dream vacation</h1>
+        <h3>Downtown or in nature</h2>
         <div class="search">Search</div>
-        <div class="filters">
+        <div class="filters-bar">
             <div class="filters-title">Filters</div>
-            <div class="cost">Low cost</div>
-            <div class="family">Family-friendly</div>
-            <div class="romantic">Romantic</div>
-            <div class="pets">Pets allowed</div>
+            <div class="filter">
+                <div class="fa-stack">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-money-bill-wave fa-stack-1x fa-inverse fa-fw"></i>
+                </div>
+                <div class="filters-name">Low cost</div>
+            </div>
+            <div class="filter">
+                <div class="fa-stack">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-child fa-stack-1x fa-fw"></i>
+                </div>
+                <div class="filters-name">Family-friendly</div>
+            </div>
+            <div class="filter">
+                <div class="fa-stack">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-heart fa-stack-1x fa-fw"></i>
+                </div>
+                <div class="filters-name">Romantic</div>
+            </div>
+            <div class="filter">
+                <div class="fa-stack">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-dog fa-stack-1x fa-fw"></i>
+                </div>
+                <div class="filters-name">Pets allowed</div> 
+            </div>
         </div>
-        <div class="info">info</div>
+        <div class="info">
+            <i class="fas fa-info-circle"></i>
+            <div>More than 500 accommodations are available in this city</div>
+        </div>
         <div class="results">
             <span class="accommodations">
                 <span class="acc-title">Accommodations in Marseille</span>
@@ -63,31 +91,66 @@
                 <span class="acc-more">Show more</span>
             </span>
             <span class="popular">
-                <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="popular-hit">
-                <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" class="popular-hit">
-                <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="popular-hit">
+                <span class="popular-hotels">
+                    <span class="pop-hotel-info">
+                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="popular-hit">
+                        <span class="pop-hotel-name">Morning Sun Hotel</span>
+                        <span class="pop-hotel-cost">Night starting at 128</span>
+                    </span>
+                </span>
+                <span class="popular-hotels">
+                    <span class="pop-hotel-info">
+                        <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" class="popular-hit">
+                        <span class="pop-hotel-name">Au coeur</span>
+                        <span class="pop-hotel-cost">Night starting</span>
+                    </span>
+                </span>
+                <span class="popular-hotels">
+                    <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="popular-hit">
+                </span>
             </span>
         </div>
-        <div class="activites">
-            <div class="activites-title">Activites in Marseille</div>
-            <div class="activities-links">
-                
+        <div class="activities">
+            <div id="activities-title">Activities in Marseille</div>
+            <div id="act-1">
+                <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="act-img">
+                <div class="act-name">Old Port</div>
             </div>
+            <div id="act-2">
+                <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="act-img">
+                <div class="act-name">Pomegues Fort</div>
+            </div>
+            <div id="act-3">
+                <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="act-img">
+                <div class="act-name">Calanques National Park</div>
+            </div>
+            <div id="act-4">
+                <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="act-img">
+                <div class="act-name">Notre-Dame-de-la-Garde</div>    
+            </div>
+            <div id="act-5">
+                <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" class="act-img">
+                <div class="act-name">Frioul Island</div>
+            </div>
+            <div id="act-6">
+                <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" class="act-img">
+                <div class="act-name">Longchamp Park</div>
+            </div>    
         </div>
         <footer>
             <div class="footer-titles">
-                <a href="">About</a>
-                <a href="">Our Accommodations</a>
-                <a href="">Assistance</a>
+                <a href="" class="footer-titles-link">About</a>
+                <a href="" class="footer-titles-link">Our Accommodations</a>
+                <a href="" class="footer-titles-link">Assistance</a>
             </div>
-            <div>
-                <a href="">Site Map</a>
-                <a href="">Quality Assessment</a>
-                <a href="">Help Desk</a>
-                <a href="">General Terms and Conditions</a>
-                <a href="">You have a hotel?</a>
-                <a href="">Contact Us</a>
-                <a href="">Data and Privacy</a>
+            <div class="footer-links">
+                <a href="" class="footer-link">Site Map</a>
+                <a href="" class="footer-link">Quality Assessment</a>
+                <a href="" class="footer-link">Help Desk</a>
+                <a href="" class="footer-link">General Terms and Conditions</a>
+                <a href="" class="footer-link">You have a hotel?</a>
+                <a href="" class="footer-link">Contact Us</a>
+                <a href="" class="footer-link">Data and Privacy</a>
             </div>
         </footer>
     </body>
