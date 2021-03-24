@@ -59,7 +59,7 @@ header {
     display: flex;
     border-style: solid;
     width: 405px;
-    height: 70px;
+    height: 50px;
     margin: 10px 10px 20px 20px;
     border-radius: 20px;
     border-color: #F2F2F2;
@@ -155,6 +155,7 @@ input {
     height: 628.7px;
     display: flex;
     justify-content: space-between;
+    margin: 0 0 60px 0;
 
 }
 .accommodations {
@@ -169,15 +170,17 @@ input {
 }
 .acc-title {
     width: 100%;
-    padding: 0 0 0 37.5px;
     height: 14.74%;
-    padding: 40px 0 0 35px;
+    display: flex;
+    align-items: center;
+    padding: 0px 0 0 35px;
 }
 .hotels-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    row-gap: 40px;
     height: 68.42%;
 }
 .hotels {
@@ -202,26 +205,33 @@ input {
     height: 100%;
     object-fit: cover;
 }
+.acc-info-container {
+    display: flex;
+    flex-direction: column;
+    height: 41.67%;
+    padding: 5px 0 0 10px;
+}
 .hotel-name {
     width: 100%;
-    height: 13.89%;
+    height: 33.3%;
 }
 .hotel-cost {
     width: 100%;
-    height: 13.89%;
+    height: 33.3%;
 }
 .stars {
     display: flex;
-    height: 13.89%;
+    height: 33.3%;
 }
 .gray-star {
     color: #F2F2F2;
 }
 .acc-more {
     width: 100%;
-    font-size: 20px;
-    margin: 0 0 0 25px;
     height: 16.84%;
+    padding: 0 0 10px 40px;
+    display: flex;
+    align-items: center;
 }
 .popular {
     display: flex;
@@ -231,12 +241,14 @@ input {
     min-width: 300px;
     border-radius: 10px;
     height: 100%;
+    margin: 0 20px 0 0;
 }
 .pop-header {
     display: flex;
     justify-content: space-between;
-    padding: 0 0 37.5px 0;
     height: 14.74%;
+    padding: 0 9.38%;
+    align-items: center;
 }
 .pop-results {
     display: flex;
@@ -253,7 +265,7 @@ input {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 5px;
     position: relative;
-    margin: auto;
+    margin: 0 auto;
 }
 .pop-hotel-img {
     width: 36.54%;
@@ -268,12 +280,20 @@ input {
     display: flex;
     flex-direction: column;
     width: 63.46%;
+    padding: 8px 10px;
 }
 .pop-hotel-name {
-    background-color: green;
+    height: 45%;
 }
 .pop-hotel-cost {
-    background-color: slateblue;
+    height: 35%;
+}
+.pop-stars {
+    height: 20%;
+    align-items: flex-end;
+}
+.act-title {
+    margin: 0 0 0 20px;
 }
 .activites {
     display: flex;
@@ -367,12 +387,14 @@ input {
     align-items: center;
     justify-content: left;
     padding-left: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 6px 20px 0 #F2F2F2;
 }
 footer {
     display: flex;
     flex-wrap: wrap;
     background-color:  #F2F2F2;
+    padding: 20px;
+    margin-top: 50px;
 }
 .footer-category {
     display: flex;
