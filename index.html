@@ -5,6 +5,7 @@
         <title>Reservia</title>
         <link rel="stylesheet" href="main.css">
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header>
@@ -14,19 +15,19 @@
             <span class="links">
                 <a href="#accommodations" class="header-link">Accommodations</a>
                 <a href="#activities-title" class="header-link">Activities</a>
-                <a href="" class="header-link">Sign Up</a>
+                <a href="" class="header-link text-subheading">Sign Up</a>
             </span>
         </header>
-        <div class="text-heading">Find a place for your dream vacation</div>
-        <div class="text-plain">Downtown or in nature</div>
-        <div class="search">
+        <div class="description text-heading">Find a place for your dream vacation</div>
+        <div class="sub-description">Downtown or in nature</div>
+        <div class="search text-subheading">
             <div class="location-icon">
                 <i class="fas fa-map-marker-alt"></i>
             </div>
             <input type="text" class="search-input" placeholder="Marseille, France"></input>
             <div class="search-button">Search</div>
         </div>
-        <div class="filters-bar">
+        <div class="filters-bar text-subheading">
             <div class="filters-title">Filters</div>
             <div class="filter">
                 <div>
@@ -62,96 +63,110 @@
         <div class="results" id="accommodations">
             <div class="accommodations">
                 <div class="acc-title text-heading">Accommodations in Marseille</div>
+                    <div class="hotels-container">   
+                        <div class="hotels">
+                            <a href="https://www.google.com">
+                                <span class="clickable"></span>
+                            </a>
+                            <div class="acc-img-container">
+                                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="hit">
+                            </div>
+                            <div class="hotel-name text-subheading">Auberge la Cannebière</div>
+                            <div class="hotel-cost">Night starting at 25€</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star gray-star"></i>
+                            </div>
+                        </div>
                     <div class="hotels">
                         <a href="https://www.google.com">
                             <span class="clickable"></span>
                         </a>
-                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="hit">
-                        <div class="hotel-name">Auberge la Cannrière</div>
-                        <div class="hotel-cost">Night starting at 25€</div>
+                        <div class="acc-img-container">
+                            <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" class="hit">
+                        </div>
+                        <div class="hotel-name text-subheading">Hôtel du port</div>
+                        <div class="hotel-cost">Night starting at 52€</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="hotels">
+                        <a href="https://www.google.com">
+                            <span class="clickable"></span>
+                        </a>
+                        <div class="acc-img-container">
+                            <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="hit">
+                        </div>
+                        <div class="hotel-name text-subheading">Les mouettes Hotel</div>
+                        <div class="hotel-cost">Night starting at 76€</div>
                         <div class="stars">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star gray-star"></i>
+                        </div>
+                    </div>    
+                    <div class="hotels">
+                        <a href="https://www.google.com">
+                            <span class="clickable"></span>
+                        </a>
+                        <div class="acc-img-container">
+                            <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" class="hit">
+                        </div>    
+                        <div class="hotel-name text-subheading">Hôtel de la mar</div>
+                        <div class="hotel-cost">Night starting at 46€</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star gray-star"></i>
+                            <i class="fas fa-star gray-star"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="hotels">
-                    <a href="https://www.google.com">
-                        <span class="clickable"></span>
-                    </a>
-                    <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" class="hit">
-                    <div class="hotel-name">Hôtel du port</div>
-                    <div class="hotel-cost">Night starting at 52€</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                    <div class="hotels">
+                        <a href="https://www.google.com">
+                            <span class="clickable"></span>
+                        </a>
+                        <div class="acc-img-container">
+                            <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class="hit">
+                        </div>
+                        <div class="hotel-name text-subheading">Auberge Le Panier</div>
+                        <div class="hotel-cost">Night starting at 23€</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star gray-star"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="hotels">
-                    <a href="https://www.google.com">
-                        <span class="clickable"></span>
-                    </a>
-                    <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="hit">
-                    <div class="hotel-name">Les mouettes Hotel</div>
-                    <div class="hotel-cost">Night starting at 76€</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star gray-star"></i>
+                    <div class="hotels">
+                        <a href="https://www.google.com">
+                            <span class="clickable"></span>
+                        </a>
+                        <div class="acc-img-container">
+                            <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" class="hit">
+                        </div>
+                        <div class="hotel-name text-subheading">Hôtel chez Amina</div>
+                        <div class="hotel-cost">Night starting at 96€</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
                     </div>
-                </div>    
-                <div class="hotels">
-                    <a href="https://www.google.com">
-                        <span class="clickable"></span>
-                    </a>
-                    <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" class="hit">
-                    <div class="hotel-name">Hôtel de la mar</div>
-                    <div class="hotel-cost">Night starting at 46€</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star gray-star"></i>
-                        <i class="fas fa-star gray-star"></i>
-                    </div>
-                </div>
-                <div class="hotels">
-                    <a href="https://www.google.com">
-                        <span class="clickable"></span>
-                    </a>   
-                    <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class="hit">
-                    <div class="hotel-name">Auberge Le Panier</div>
-                    <div class="hotel-cost">Night starting at 23€</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star gray-star"></i>
-                    </div>
-                </div>
-                <div class="hotels">
-                    <a href="https://www.google.com">
-                        <span class="clickable"></span>
-                    </a>
-                    <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" class="hit">
-                    <div class="hotel-name">Hôtel chez Amina</div>
-                    <div class="hotel-cost">Night starting at 96€</div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
+                </div> 
                 <div class="acc-more">Show more</div>
             </div>
             <div class="popular">
@@ -168,7 +183,7 @@
                             <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="popular-hit">
                         </div>
                         <div class="pop-hotel-info"> 
-                            <div class="pop-hotel-name">Morning Sun Hotel</div>
+                            <div class="pop-hotel-name text-subheading">Morning Sun Hotel</div>
                             <div class="pop-hotel-cost">Night starting at 128€</div>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
@@ -187,7 +202,7 @@
                             <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" class="popular-hit">
                         </div>
                         <div class="pop-hotel-info">
-                            <div class="pop-hotel-name">Au coeur de l'eau Bed and Breakfast</div>
+                            <div class="pop-hotel-name text-subheading">Au coeur de l'eau Bed and Breakfast</div>
                             <div class="pop-hotel-cost">Night starting at 71€</div>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
@@ -206,7 +221,7 @@
                             <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="popular-hit">
                         </div>
                         <div class="pop-hotel-info">
-                            <div class="pop-hotel-name">Tout bleu et Blanc Hotel</div>
+                            <div class="pop-hotel-name text-subheading">Tout bleu et Blanc Hotel</div>
                             <div class="pop-hotel-cost">Night starting at 68€</div>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
@@ -221,68 +236,84 @@
             </div>
         </div>
         <div id="activities-title" class="text-heading">Activities in Marseille</div>
-        <div class="activities">
-            <div class="act-column activity">
-                <a href="https://www.google.com">
-                    <span class="clickable"></span>
-                </a>
-                <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" id="act-1-img" class="act-img">
-                <div class="act-name" id="act-1-name">Old Port</div>
+        <div class="activites">
+            <div class="act-column-1">
+                <div class="act-container">
+                    <a href="https://www.google.com">
+                        <span class="clickable"></span>
+                    </a>
+                    <div class="act-img-1 act-img-container">
+                        <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="act-imgs">
+                    </div>
+                    <div class="act-title-1 act-titles text-subheading">Old Port</div>
+                </div>    
             </div>
-            <div class="act-column"> 
-                <div class="activity">
-                    <a href="https://www.google.com">
+            <div class="act-column-2">
+                <div class="act-container-2">
+                    <a href="https://www.espn.com">
                         <span class="clickable"></span>
                     </a>
-                    <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" id="act-2-img" class="act-img">
-                    <div class="act-name" id="act-2-name">Pomègues Fort</div>
+                    <div class="act-img-2 act-img-container">
+                        <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="act-imgs">
+                    </div>
+                    <div class="act-title-2 act-titles text-subheading">Pomègues Fort</div>
                 </div>
-                <div class="activity">
-                    <a href="https://www.google.com">
+                <div class="act-container-5">
+                    <a href="https://www.cnn.com">
                         <span class="clickable"></span>
                     </a>
-                    <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" id="act-5-img" class="act-img">
-                    <div class="act-name" id="act-5-name">Frioul Island</div>
-                </div>
-            </div>  
-            <div class="act-column activity">
-                <a href="https://www.google.com">
-                    <span class="clickable"></span>
-                </a>
-                <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" id="act-3-img" class="act-img">
-                <div class="act-name" id="act-3-name">Calanques National Park</div>
+                    <div class="act-img-5 act-img-container">
+                        <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" class="act-imgs">
+                    </div>
+                    <div class="act-title-5 act-titles text-subheading">Frioul Island</div>
+                </div>      
             </div>
-            <div class="act-column">
-                <div class="activity">
-                    <a href="https://www.google.com">
+            <div class="act-column-3">
+                <div class="act-container">
+                    <a href="https://www.bing.com">
                         <span class="clickable"></span>
                     </a>
-                    <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" id="act-4-img" class="act-img">
-                    <div class="act-name" id="act-4-name">Notre-Dame-de-la-Garde</div>
-                </div>  
-                <div class="activity">
-                    <a href="https://www.google.com">
-                        <span class="clickable"></span>
-                    </a>
-                    <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" id="act-6-img" class="act-img">
-                    <div class="act-name" id="act-6-name">Longchamp Park</div> 
+                    <div class="act-img-3 act-img-container">
+                        <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="act-imgs">
+                    </div>
+                    <div class="act-title-3 act-titles text-subheading">Calanques National Park</div>
                 </div>
-            </div>    
+            </div>
+            <div class="act-column-4">
+                <div class="act-container-4">
+                    <a href="https://www.youtube.com">
+                        <span class="clickable"></span>
+                    </a>
+                    <div class="act-img-4 act-img-container">
+                        <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="act-imgs">
+                    </div>
+                    <div class="act-title-4 act-titles text-subheading">Notre-Dame-de-la-Garde</div>
+                </div>    
+                <div class="act-container-6">
+                    <a href="https://maps.google.com">
+                        <span class="clickable"></span>
+                    </a>
+                    <div class="act-img-6 act-img-container">
+                        <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" class="act-imgs">
+                    </div>
+                    <div class="act-title-6 act-titles text-subheading">Longchamp Park</div>
+                </div>
+            </div>
         </div>
         <footer>
             <div class="footer-category">
-                <div class="footer-title">About</div>
+                <div class="footer-title text-subheading">About</div>
                 <a href="" class="footer-link">Site Map</a>
                 <a href="" class="footer-link">General Terms and Conditions</a>
                 <a href="" class="footer-link">Data and Privacy</a>
             </div>
             <div class="footer-category">
-                <div class="footer-title">Our Accommodations</div>
+                <div class="footer-title text-subheading">Our Accommodations</div>
                 <a href="" class="footer-link">Quality Assessment</a>
                 <a href="" class="footer-link">You have a hotel?</a>
             </div>
             <div class="footer-category">
-                <div class="footer-title">Assistance</div>
+                <div class="footer-title text-subheading">Assistance</div>
                 <a href="" class="footer-link">Help Desk</a>
                 <a href="" class="footer-link">Contact Us</a>
             </div>
