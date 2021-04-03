@@ -447,9 +447,10 @@ footer {
 @media all and (max-width:600px) {
     header {
         flex-wrap: wrap;
-        width: 96%;
+        width: 92%;
         height: 120px;
         align-items: flex-end;
+        margin-right: 0;
     }
     .logo {
         width: 50%;
@@ -492,7 +493,7 @@ footer {
         order: 4;
     }
     .search {
-        width: 355px;
+        width: 350px;
         margin: 0 0 0 20px;
     }
     .filters-bar {
