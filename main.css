@@ -159,7 +159,7 @@ input {
 }
 .results {
     width: 100%;
-    height: 628.7px;
+    height: 630px;
     display: flex;
     justify-content: space-between;
     margin: 0 0 60px 0;
@@ -168,7 +168,6 @@ input {
 .accommodations {
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     border-radius: 10px;
     width: 65.69%;
@@ -186,9 +185,9 @@ input {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    row-gap: 40px;
     height: 68.42%;
+    gap: 7.46% 3.73%;
+    justify-content: center;
 }
 .hotels {
     display: flex;
@@ -216,7 +215,7 @@ input {
     display: flex;
     flex-direction: column;
     height: 41.67%;
-    padding: 5px 0 0 10px;
+    padding: 5px 10px 0 10px;
 }
 .hotel-name {
     width: 100%;
@@ -273,6 +272,7 @@ input {
     padding: 5px;
     position: relative;
     margin: 0 auto;
+    min-width: 300px;
 }
 .pop-hotel-img {
     width: 36.54%;
@@ -393,12 +393,11 @@ input {
     display: flex;
     align-items: center;
     justify-content: left;
-    padding-left: 20px;
+    padding: 0 20px;
     box-shadow: 0 6px 20px 0 #F2F2F2;
 }
 footer {
     display: flex;
-    flex-wrap: wrap;
     background-color:  #F2F2F2;
     padding: 20px;
     margin-top: 50px;
@@ -406,7 +405,7 @@ footer {
 .footer-category {
     display: flex;
     flex-direction: column;
-    width: 33.3%    ;
+    width: 33.3%;
 }
 .footer-title {
     padding: 20px 0 10px 10px;
@@ -443,7 +442,127 @@ footer {
     justify-content: center;
     border-radius: 100%;
 }
-
+@media all and (max-width:1275px) and (min-width: 600.1px) {
+    .logo {
+        width: 55%;
+    }
+    .filter {
+        height: 45px;
+    }
+    .filters-bar {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .filter-4 {
+        margin-top: 10px;
+    }
+    .results {
+        flex-direction: column-reverse;
+        height: 1260px;
+        row-gap: 30px;
+        width: 98%;
+        margin: auto;
+    }
+    .accommodations {
+        width: 100%;
+        margin: auto;
+    }
+    .popular {
+        width: 100%;
+        margin: auto;
+        height: 300px;
+    }
+    .pop-header {
+        width: 100%;
+        padding: 0 3.73%;
+        margin: 20px 0;
+    }
+    .pop-results {
+        flex-direction: row;
+        padding: 0;
+        justify-content: center;
+        column-gap: 3.73%;
+    }
+    .popular-hotels {
+        width: 28.36%;
+        height: 200px;
+        margin: 0;
+        min-width: 0;
+    }
+    .pop-hotel-cost {
+        padding-top: 10px;
+    }
+    .activites {
+        height: 400px;
+    }
+    .footer-category {
+        width: 250px;
+    }
+    footer {
+        justify-content: space-between;
+    }
+}
+@media all and (max-width:900px) and (min-width: 600.1px) {
+    .logo {
+        width: 45%;
+    }
+    .popular {
+        height: 350px;
+    }
+    .popular-hotels {
+        height: 240px;
+    }
+    .acc-info-container {
+        height: 50%;
+    }
+    .hotel-name {
+        height: 45%;
+    }
+    .hotel-cost {
+        height: 40%;
+    }
+    .stars {
+        height: 15%;
+    }
+    .activites {
+        width: 96%;
+        height: fit-content;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .act-column-1 {
+        width: 48%;
+        order: 1;
+    }
+    .act-column-2 {
+        width: 48%;
+        order: 3;
+        justify-content: unset;
+        row-gap: 30px;
+    }
+    .act-column-3 {
+        width: 48%;
+        order: 2;
+    }
+    .act-column-4 {
+        width: 48%;
+        order: 4;
+        justify-content: unset;
+        row-gap: 30px;
+    }
+    .act-img-container {
+        height: 125px
+    }
+    .act-container-2 {
+        height: unset;
+    }
+    .act-container-4 {
+        height: unset;
+    }
+    .act-titles {
+        height: 55px;
+    }
+}
 @media all and (max-width:600px) {
     header {
         flex-wrap: wrap;
@@ -594,7 +713,7 @@ footer {
         display: flex;
         flex-direction: column;
         row-gap: 25px;
-        height:fit-content;
+        height: fit-content;
     }
     .act-column-1 {
         width: 100%;
@@ -624,9 +743,8 @@ footer {
     .act-titles {
         height: 55px;
     }
-    .footer {
-        display: flex;
-        flex-direction: column;
+    footer {
+        flex-wrap: wrap;
     }
     .footer-category {
         width: 100%;
