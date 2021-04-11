@@ -300,7 +300,7 @@ input {
     align-items: flex-end;
 }
 .act-title {
-    margin: 0 0 0 20px;
+    margin: 50px 0 0 20px;
 }
 .activites {
     display: flex;
@@ -671,7 +671,7 @@ footer {
         margin: auto;
         width: 92%;
         display: flex;
-        margin-bottom: 10px;
+        margin-bottom: 25px;
     }
     .pop-hotel-img {
         width: 120px;
@@ -695,6 +695,7 @@ footer {
     .hotels {
         width: 92%;
         margin: auto;
+        margin-bottom: 25px;
     }
     .acc-img-container {
         height: 120px;
