@@ -1,2 +1,2 @@
 # Reservia MockUp
- Project 2
+gasper324.github.io/Reservia-MockUp/
